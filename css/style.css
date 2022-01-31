@@ -1,64 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap');
-
-body{
-    margin: 0; 
-    height: 300vh;
-    font-family: 'Ubuntu', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap");
+body {
+  margin: 0;
+  height: 300vh;
+  font-family: "Ubuntu", sans-serif;
 }
 
 header {
-    background: url('../assets/img/bg_header.jpg') center/cover fixed;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    color: #fff;
+  background: url("../assets/img/bg_header.jpg") center/cover fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: #fff;
 }
 
 header h1 {
-    font-size: 60px;
-    line-height: 150%;
-    position: absolute;
-    text-align: center;
+  font-size: 60px;
+  line-height: 150%;
+  position: absolute;
+  text-align: center;
 }
 
 header a {
-    position: absolute;
-    bottom: 15%;
-    text-decoration: none;
-    font-size: 30px;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    color: inherit;
-    padding: 15px;
-    width: 150px;
-    text-align: center;
-    transition-duration: .5s;
-    
+  position: absolute;
+  bottom: 15%;
+  text-decoration: none;
+  font-size: 30px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: inherit;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  transition-duration: 0.5s;
 }
+
 header a:hover {
-    background-color: #8C0303;
+  background-color: #8C0303;
 }
 
 header::after {
-    content: '';
-    background-color: rgba(0, 0, 0, 0.522);
-    display: block;
-    width: 100%;
-    height: 100%;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.522);
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (min-width: 800px) {
-    header h1 {
-        font-size: 80px;
-    }
+  header h1 {
+    font-size: 80px;
+  }
 }
-
-
 @media screen and (min-width: 1200px) {
-    header h1 {
-        font-size: 100px;
-    }
+  header h1 {
+    font-size: 100px;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */
